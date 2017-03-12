@@ -1,0 +1,7 @@
+1) The general trend in the curve is that the more percentage of the data we use, the more accurate the testing is. This makes sense and is what we expected to see. 
+
+2) The earlier parts where we use less data appear to be noisier. My guess is that this is because with less data, there is still a chance that it will get things right, while if we are using more data we guarantee that it will be more accurate, but it is less likely that it will get it right past 80%. 
+
+3) I did 50 trials for each percentage and got a relatively smooth curve. It would definitely be better if I did 100, but it also takes a long time. Granted I could probably make my code more effecient, but for the time being 50 seems fine. 
+
+4) When I made the value of C bigger, the curve turned into more of a square-root function where it had a really alrge rise at the beginning, and then it sort of leveled off at around 88%. It was also smoother looking data. When I made C smaller, it turned it into more of a straight line, but it had a lot more variation. 
